@@ -1,5 +1,7 @@
 # TDBSplashscreen CHANGELOG
 
-## 0.1.0
+## 1.0.0
 
-Initial release.
+- Show Launch Image longer
+- Dismiss (4 different animations)
+- Completion handler after dismiss
