@@ -43,3 +43,16 @@ Here's an example of how you should use TDBSplashscreen
 }
 ```
 
+You can also dismiss the splashscreen with a different animation
+```objective-c
+[TDBSplashscreen dismissWithAnimation:UIModalTransitionStyleCrossDissolve];
+```
+
+You can also add a completion handler to execute code when the splashscreen had been hidden
+```objective-c
+[TDBSplashscreen dismissWithAnimation:UIModalTransitionStyleCrossDissolve completion:^{
+            
+    // Splashscreen has been dismissed
+            
+}];
+```
