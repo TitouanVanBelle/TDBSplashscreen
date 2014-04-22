@@ -6,7 +6,7 @@ TDBSplashscreen is a pod that allow you to show your splashscreen a little longe
 
 - ARC only
 - iOS 7.0+
-- iPhone (iPas soon)
+- iPhone (iPad soon)
 - Portrait orientation only (Landscape soon)
 
 ## Install
