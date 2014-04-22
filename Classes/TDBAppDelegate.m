@@ -23,7 +23,6 @@
     viewController.view.backgroundColor = [UIColor redColor];
     self.window.rootViewController = viewController;
 
-    
     [TDBSplashscreen show];
     
     // 10 Second Loading time
