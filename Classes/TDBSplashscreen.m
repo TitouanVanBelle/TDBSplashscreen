@@ -46,17 +46,35 @@
     UIWindow* window = [[UIApplication sharedApplication] keyWindow];
     TDBSplashscreen *this = [TDBSplashscreen sharedInstance];
     
-    [window.rootViewController presentViewController:this.viewController animated:NO completion:^{
-        NSLog(@"Shown");
-    }];
+    [window.rootViewController presentViewController:this.viewController animated:NO completion:nil];
 }
 
 
 + (void)dismiss
 {
+    [TDBSplashscreen dismissWithAnimation:UIModalTransitionStyleCoverVertical completion:nil];
+}
+
+
++ (void)dismissWithAnimation:(UIModalTransitionStyle)animation
+{
+    [TDBSplashscreen dismissWithAnimation:animation completion:nil];
+}
+
+
++ (void)dismissWithAnimation:(UIModalTransitionStyle)animation completion:(void (^)(void))completion
+{
+    TDBSplashscreen *this = [TDBSplashscreen sharedInstance];
+    
+    if (animation) {
+        this.viewController.modalTransitionStyle = animation;
+    }
+    
     UIWindow* window = [[UIApplication sharedApplication] keyWindow];
     [window.rootViewController dismissViewControllerAnimated:YES completion:^{
-        NSLog(@"Dismissed");
+        if (completion) {
+            completion();
+        }
     }];
 }
 

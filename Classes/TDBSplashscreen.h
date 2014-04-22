@@ -23,5 +23,7 @@
 
 + (void)show;
 + (void)dismiss;
++ (void)dismissWithAnimation:(UIModalTransitionStyle)animation;
++ (void)dismissWithAnimation:(UIModalTransitionStyle)animation completion:(void (^)(void))completion;
 
 @end
