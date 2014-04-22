@@ -1,1 +1,1 @@
-../../TDBSplashscreen/Classes/TDBSplashscreen/TDBSplashscreen.h
+../../TDBSplashscreen/Classes/TDBSplashscreen.h

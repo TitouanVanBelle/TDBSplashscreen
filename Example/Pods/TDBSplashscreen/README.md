@@ -11,13 +11,16 @@ TDBSplashscreen is a pod that allow you to show your splashscreen a little longe
 
 ## Install
 
-Just add the following line to your Podfile and run `pod install`
+TDBSplashscreen is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
 
 ```ruby
 pod 'TDBSplashscreen'
 ```
 
 ## Usage
+
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
 Here's an example of how you should use TDBSplashscreen
 
@@ -56,3 +59,11 @@ You can also add a completion handler to execute code when the splashscreen had 
             
 }];
 ```
+
+## Author
+
+Titouan Van Belle, titouan.vanbelle@gmail.com
+
+## License
+
+TDBSplashscreen is available under the MIT license. See the LICENSE file for more info.
