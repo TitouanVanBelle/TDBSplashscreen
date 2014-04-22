@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F324236F190584BD00F3FD4F /* 3dB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = 3dB.app; path = TDBSplashscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F324236F190584BD00F3FD4F /* TDBSplashscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDBSplashscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3242372190584BD00F3FD4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3242374190584BD00F3FD4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F3242376190584BD00F3FD4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 		F3242370190584BD00F3FD4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F324236F190584BD00F3FD4F /* 3dB.app */,
+				F324236F190584BD00F3FD4F /* TDBSplashscreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			);
 			name = TDBSplashscreen;
 			productName = 3dB;
-			productReference = F324236F190584BD00F3FD4F /* 3dB.app */;
+			productReference = F324236F190584BD00F3FD4F /* TDBSplashscreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

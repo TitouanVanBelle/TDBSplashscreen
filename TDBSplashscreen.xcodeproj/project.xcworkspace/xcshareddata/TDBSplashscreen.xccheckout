@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C94A863-F798-49BC-AE25-A12A86A7FE61</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TDBSplashscreen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E514ED6-C48F-4047-AA5D-03D41DBB0BD9</key>
+		<string>ssh://github.com/TitouanVanBelle/TDBSplashscreen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TDBSplashscreen.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E514ED6-C48F-4047-AA5D-03D41DBB0BD9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/TitouanVanBelle/TDBSplashscreen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E514ED6-C48F-4047-AA5D-03D41DBB0BD9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E514ED6-C48F-4047-AA5D-03D41DBB0BD9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TDBSplashscreen</string>
+		</dict>
+	</array>
+</dict>
+</plist>
