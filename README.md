@@ -14,7 +14,7 @@ TDBSplashscreen is a pod that allow you to show your splashscreen a little longe
 Just add the following line to your Podfile and run `pod install`
 
 ```ruby
-pod 'AALaunchTransition'
+pod 'TDBSplashscreen'
 ```
 
 ## Usage
