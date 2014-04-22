@@ -10,12 +10,12 @@
 		F3242373190584BD00F3FD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3242372190584BD00F3FD4F /* Foundation.framework */; };
 		F3242375190584BD00F3FD4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3242374190584BD00F3FD4F /* CoreGraphics.framework */; };
 		F3242377190584BD00F3FD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3242376190584BD00F3FD4F /* UIKit.framework */; };
-		F32423AF19069E0900F3FD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F32423A519069E0900F3FD4F /* InfoPlist.strings */; };
-		F32423B019069E0900F3FD4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32423A719069E0900F3FD4F /* Images.xcassets */; };
 		F32423B119069E0900F3FD4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32423A819069E0900F3FD4F /* main.m */; };
 		F32423B219069E0900F3FD4F /* TDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32423AA19069E0900F3FD4F /* TDBAppDelegate.m */; };
-		F32423B419069E0900F3FD4F /* TDBSplashscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F32423AE19069E0900F3FD4F /* TDBSplashscreen.m */; };
-		F3A23C2E1906AF8F00551E77 /* TDBSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A23C2D1906AF8F00551E77 /* TDBSplashViewController.m */; };
+		F3A23C341906C57A00551E77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A23C301906C57A00551E77 /* Images.xcassets */; };
+		F3A23C351906C57A00551E77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A23C321906C57A00551E77 /* InfoPlist.strings */; };
+		F3A23C3B1906C58100551E77 /* TDBSplashscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A23C381906C58100551E77 /* TDBSplashscreen.m */; };
+		F3A23C3C1906C58100551E77 /* TDBSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A23C3A1906C58100551E77 /* TDBSplashViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,17 +24,17 @@
 		F3242374190584BD00F3FD4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F3242376190584BD00F3FD4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F324238B190584BD00F3FD4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F32423A619069E0900F3FD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F32423A719069E0900F3FD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F32423A819069E0900F3FD4F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F32423A919069E0900F3FD4F /* TDBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBAppDelegate.h; sourceTree = "<group>"; };
 		F32423AA19069E0900F3FD4F /* TDBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBAppDelegate.m; sourceTree = "<group>"; };
 		F32423AB19069E0900F3FD4F /* TDBSplashscreen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TDBSplashscreen-Info.plist"; sourceTree = "<group>"; };
 		F32423AC19069E0900F3FD4F /* TDBSplashscreen-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDBSplashscreen-Prefix.pch"; sourceTree = "<group>"; };
-		F32423AD19069E0900F3FD4F /* TDBSplashscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBSplashscreen.h; sourceTree = "<group>"; };
-		F32423AE19069E0900F3FD4F /* TDBSplashscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBSplashscreen.m; sourceTree = "<group>"; };
-		F3A23C2C1906AF8F00551E77 /* TDBSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBSplashViewController.h; sourceTree = "<group>"; };
-		F3A23C2D1906AF8F00551E77 /* TDBSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBSplashViewController.m; sourceTree = "<group>"; };
+		F3A23C301906C57A00551E77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3A23C331906C57A00551E77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3A23C371906C58100551E77 /* TDBSplashscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBSplashscreen.h; sourceTree = "<group>"; };
+		F3A23C381906C58100551E77 /* TDBSplashscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBSplashscreen.m; sourceTree = "<group>"; };
+		F3A23C391906C58100551E77 /* TDBSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBSplashViewController.h; sourceTree = "<group>"; };
+		F3A23C3A1906C58100551E77 /* TDBSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBSplashViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,8 @@
 		F3242366190584BD00F3FD4F = {
 			isa = PBXGroup;
 			children = (
+				F3A23C2F1906C57A00551E77 /* Assets */,
+				F3A23C311906C57A00551E77 /* Strings */,
 				F32423A419069E0900F3FD4F /* Classes */,
 				F3242371190584BD00F3FD4F /* Frameworks */,
 				F3242370190584BD00F3FD4F /* Products */,
@@ -82,33 +84,12 @@
 		F32423A419069E0900F3FD4F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F32423B519069E1000F3FD4F /* Assets */,
-				F32423B619069E1C00F3FD4F /* Strings */,
-				F32423B719069E2600F3FD4F /* Supporting Files */,
 				F32423A919069E0900F3FD4F /* TDBAppDelegate.h */,
 				F32423AA19069E0900F3FD4F /* TDBAppDelegate.m */,
-				F32423AD19069E0900F3FD4F /* TDBSplashscreen.h */,
-				F32423AE19069E0900F3FD4F /* TDBSplashscreen.m */,
-				F3A23C2C1906AF8F00551E77 /* TDBSplashViewController.h */,
-				F3A23C2D1906AF8F00551E77 /* TDBSplashViewController.m */,
+				F3A23C361906C58100551E77 /* TDBSplashscreen */,
+				F32423B719069E2600F3FD4F /* Supporting Files */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F32423B519069E1000F3FD4F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F32423A719069E0900F3FD4F /* Images.xcassets */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		F32423B619069E1C00F3FD4F /* Strings */ = {
-			isa = PBXGroup;
-			children = (
-				F32423A519069E0900F3FD4F /* InfoPlist.strings */,
-			);
-			name = Strings;
 			sourceTree = "<group>";
 		};
 		F32423B719069E2600F3FD4F /* Supporting Files */ = {
@@ -119,6 +100,33 @@
 				F32423AC19069E0900F3FD4F /* TDBSplashscreen-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3A23C2F1906C57A00551E77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F3A23C301906C57A00551E77 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F3A23C311906C57A00551E77 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F3A23C321906C57A00551E77 /* InfoPlist.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		F3A23C361906C58100551E77 /* TDBSplashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				F3A23C371906C58100551E77 /* TDBSplashscreen.h */,
+				F3A23C381906C58100551E77 /* TDBSplashscreen.m */,
+				F3A23C391906C58100551E77 /* TDBSplashViewController.h */,
+				F3A23C3A1906C58100551E77 /* TDBSplashViewController.m */,
+			);
+			path = TDBSplashscreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F32423AF19069E0900F3FD4F /* InfoPlist.strings in Resources */,
-				F32423B019069E0900F3FD4F /* Images.xcassets in Resources */,
+				F3A23C341906C57A00551E77 /* Images.xcassets in Resources */,
+				F3A23C351906C57A00551E77 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A23C2E1906AF8F00551E77 /* TDBSplashViewController.m in Sources */,
-				F32423B419069E0900F3FD4F /* TDBSplashscreen.m in Sources */,
+				F3A23C3C1906C58100551E77 /* TDBSplashViewController.m in Sources */,
+				F3A23C3B1906C58100551E77 /* TDBSplashscreen.m in Sources */,
 				F32423B119069E0900F3FD4F /* main.m in Sources */,
 				F32423B219069E0900F3FD4F /* TDBAppDelegate.m in Sources */,
 			);
@@ -195,10 +203,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F32423A519069E0900F3FD4F /* InfoPlist.strings */ = {
+		F3A23C321906C57A00551E77 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F32423A619069E0900F3FD4F /* en */,
+				F3A23C331906C57A00551E77 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
