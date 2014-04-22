@@ -62,7 +62,7 @@ You can also add a completion handler to execute code when the splashscreen had 
 
 ## Author
 
-Titouan Van Belle, titouan.vanbelle@gmail.fr
+Titouan Van Belle, titouan.vanbelle@gmail.com
 
 ## License
 
