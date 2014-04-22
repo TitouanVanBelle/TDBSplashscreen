@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TDBSplashViewController.h"
 
 @interface TDBSplashscreen : NSObject
 
-@property (strong, nonatomic) UIViewController *viewController;
+@property (strong, nonatomic) TDBSplashViewController *viewController;
 
 
 #pragma mark - Singleton

@@ -32,7 +32,7 @@
     self = [super init];
     
     if (self) {
-        self.viewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+        self.viewController = [[TDBSplashViewController alloc] initWithNibName:nil bundle:nil];
         
         UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:self.viewController.view.frame];
         backgroundImage.image = [self launchImage];
@@ -50,7 +50,7 @@
 {
     UIWindow* window = [[UIApplication sharedApplication] keyWindow];
     TDBSplashscreen *this = [TDBSplashscreen sharedInstance];
-        
+    
     [window.rootViewController presentViewController:this.viewController animated:NO completion:^{
         NSLog(@"Shown");
     }];
@@ -92,6 +92,5 @@
     
     return launchImage;
 }
-
 
 @end
