@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Titouan Van Belle" => "titouan.vanbelle@gmail.com" }
   s.source       = { :git => "https://github.com/TitouanVanBelle/TDBSplashscreen.git", :tag => "1.0.0" }
-  s.source_files = 'Classes/*.{h,m}'
+  s.source_files = 'Classes/TDBSplashscreen/*.{h,m}'
   s.requires_arc = true
 end
