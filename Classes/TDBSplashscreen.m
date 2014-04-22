@@ -33,11 +33,6 @@
     
     if (self) {
         self.viewController = [[TDBSplashViewController alloc] initWithNibName:nil bundle:nil];
-        
-        UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:self.viewController.view.frame];
-        backgroundImage.image = [self launchImage];
-        
-        [self.viewController.view addSubview:backgroundImage];
     }
     
     return self;
@@ -63,34 +58,6 @@
     [window.rootViewController dismissViewControllerAnimated:YES completion:^{
         NSLog(@"Dismissed");
     }];
-}
-
-
-#pragma mark - Interface
-
--(UIImage *)launchImage
-{
-    UIImage *launchImage;
-    
-    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    
-    if (UIInterfaceOrientationIsPortrait(orientation)) {
-        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-            if ([[UIScreen mainScreen] bounds].size.height == 568.0f) {
-                launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage-700-568h@2x" ofType:@"png"]];
-            }
-            else {
-                launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage-700@2x" ofType:@"png"]];
-            }
-        }
-        else {
-            launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Portrait" ofType:@"png"]];
-        }
-    } else {
-        launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Landscape" ofType:@"png"]];
-    }
-    
-    return launchImage;
 }
 
 @end

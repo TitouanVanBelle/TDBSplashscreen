@@ -14,41 +14,73 @@
 
 @implementation TDBSplashViewController
 
+
+#pragma mark - Initialization
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+
     }
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
+
+
+-(void)viewDidLayoutSubviews
+{
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:self.view.frame];
+    backgroundImage.image = [self launchImage];
+    
+    [self.view addSubview:backgroundImage];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+#pragma mark - Status Bar Methods
 
 - (BOOL)prefersStatusBarHidden
 {
     return [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"UIStatusBarHidden"] intValue];
+}
+
+
+#pragma mark - Launch Image Methods
+
+-(UIImage *)launchImage
+{
+    UIImage *launchImage;
+    
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    
+    if (UIInterfaceOrientationIsPortrait(orientation)) {
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            if ([[UIScreen mainScreen] bounds].size.height == 568.0f) {
+                launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage-700-568h@2x" ofType:@"png"]];
+            }
+            else {
+                launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage-700@2x" ofType:@"png"]];
+            }
+        }
+        else {
+            launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Portrait" ofType:@"png"]];
+        }
+    } else {
+        launchImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Landscape" ofType:@"png"]];
+    }
+    
+    return launchImage;
 }
 
 @end
