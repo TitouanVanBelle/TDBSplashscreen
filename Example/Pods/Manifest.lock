@@ -1,0 +1,14 @@
+PODS:
+  - TDBSplashscreen (1.0.0)
+
+DEPENDENCIES:
+  - TDBSplashscreen (from `git@github.com:TitouanVanBelle/TDBSplashscreen.git`)
+
+EXTERNAL SOURCES:
+  TDBSplashscreen:
+    :git: git@github.com:TitouanVanBelle/TDBSplashscreen.git
+
+SPEC CHECKSUMS:
+  TDBSplashscreen: 8cd87e97c5c67a3983b02e7cf02f0073cce12c7f
+
+COCOAPODS: 0.32.1
