@@ -20,7 +20,7 @@ pod 'TDBSplashscreen'
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+To run the example project run `pod try TDBSplashscreen`. Or go manual way: clone the repo, run `pod install` from the Example directory, open the workspace.
 
 Here's an example of how you should use TDBSplashscreen
 
