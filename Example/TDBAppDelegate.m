@@ -23,7 +23,20 @@
     viewController.view.backgroundColor = [UIColor redColor];
     self.window.rootViewController = viewController;
 
+    TDBSplashscreen *splashcreen = [TDBSplashscreen sharedInstance];
+    UILabel *loadingLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 568, 320, 26)];
+    loadingLabel.backgroundColor = [UIColor colorWithWhite:0 alpha:.75];
+    loadingLabel.text = @"Downloading new version";
+    loadingLabel.font = [UIFont systemFontOfSize:14];
+    loadingLabel.textColor = [UIColor whiteColor];
+    loadingLabel.textAlignment = NSTextAlignmentCenter;
+    [splashcreen.viewController.view addSubview:loadingLabel];
+    
     [TDBSplashscreen show];
+    
+    [UIView animateWithDuration:.3 animations:^{
+        loadingLabel.frame = CGRectMake(0, 542, 320, 26);
+    }];
     
     // 10 Second Loading time
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{

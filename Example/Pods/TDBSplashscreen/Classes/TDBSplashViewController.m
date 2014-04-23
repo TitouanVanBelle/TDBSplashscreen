@@ -22,6 +22,11 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
 
+        UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:self.view.frame];
+        backgroundImage.image = [self launchImage];
+        
+        [self.view addSubview:backgroundImage];
+        
     }
     return self;
 }
@@ -30,15 +35,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-}
-
-
--(void)viewDidLayoutSubviews
-{
-    UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:self.view.frame];
-    backgroundImage.image = [self launchImage];
-    
-    [self.view addSubview:backgroundImage];
 }
 
 
