@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/TitouanVanBelle/TDBSplashscreen"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Titouan Van Belle" => "titouan.vanbelle@gmail.com" }
+  s.social_media_url = 'https://twitter.com/tdebailleul'
   s.source           = { :git => "https://github.com/TitouanVanBelle/TDBSplashscreen.git", :tag => "1.0.0" }
 
   s.source_files = 'Classes/*.{h,m}'
